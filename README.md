@@ -3,8 +3,8 @@
 <img src="res/freedesktop/solvespace-scalable.svg" width="70" height="70" alt="SolveSpace Logo" align="left">
 
 [![Build Status](https://github.com/solvespace/solvespace/workflows/CD/badge.svg)](https://github.com/uberintj/solvespace-vars/actions)
-##[![solvespace](https://snapcraft.io/solvespace/badge.svg)](https://snapcraft.io/solvespace)
-##[![solvespace](https://snapcraft.io/solvespace/trending.svg?name=0)](https://snapcraft.io/solvespace)
+## [![solvespace](https://snapcraft.io/solvespace/badge.svg)](https://snapcraft.io/solvespace)
+## [![solvespace](https://snapcraft.io/solvespace/trending.svg?name=0)](https://snapcraft.io/solvespace)
 
 This repository contains a fork of the source code of [SolveSpace][], a parametric
 2d/3d CAD.  This fork is attempting to make true variables a first-class citizen in the SolveSpace realm.
