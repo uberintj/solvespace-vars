@@ -6,8 +6,8 @@
 [![solvespace](https://snapcraft.io/solvespace/badge.svg)](https://snapcraft.io/solvespace)
 [![solvespace](https://snapcraft.io/solvespace/trending.svg?name=0)](https://snapcraft.io/solvespace)
 
-This repository contains the source code of [SolveSpace][], a parametric
-2d/3d CAD.
+This repository contains a fork of the source code of [SolveSpace][], a parametric
+2d/3d CAD.  This fork is attempting to make true variables a first-class citizen in the SolveSpace realm.
 
 [solvespace]: https://solvespace.com
 
