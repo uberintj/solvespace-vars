@@ -161,7 +161,7 @@ bool SolveSpaceUI::LoadAutosaveFor(const Platform::Path &filename) {
     fclose(f);
 
     Platform::MessageDialogRef dialog = CreateMessageDialog(GW.window);
-
+    
     using Platform::MessageDialog;
     dialog->SetType(MessageDialog::Type::QUESTION);
     dialog->SetTitle(C_("title", "Autosave Available"));

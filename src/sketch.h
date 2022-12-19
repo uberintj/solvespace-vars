@@ -621,6 +621,7 @@ public:
     double      val;
     bool        known;
     bool        free;
+    std::string name;
 
     // Used only in the solver
     Param       *substd;
@@ -710,7 +711,8 @@ public:
 
     bool        reference;  // a ref dimension, that generates no eqs
     std::string comment;    // since comments are represented as constraints
-
+    std::string expression;
+    
     bool Equals(const ConstraintBase &c) const {
         return type == c.type && group == c.group && workplane == c.workplane &&
             valA == c.valA && valP == c.valP && ptA == c.ptA && ptB == c.ptB &&
